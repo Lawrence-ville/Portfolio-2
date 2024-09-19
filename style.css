@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+}
+
+
+
+.hero{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+background-image: linear-gradient(to top, #2f4f7f, #3f66c0, #10c3f0)
+    
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    text-decoration: wavy;
+    color: rgb(140, 255, 0);
+    
+}
+
+
+nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 5px 21px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+    color: Gold;
+}
+
+.detel{
+    margin-left: 7%;
+    margin-top: 55px;
+}
+
+
+.detel h1{
+    font-size: 60px;
+    color:gold;
+    margin-bottom: 7px;
+}
+
+.detel h2{
+    font-size: 55px;
+    color: #212121;
+    margin-bottom: 6px;
+}
+
+.detel h5{
+    font-size: 40px;
+    color: #212121;
+    margin-bottom: 5px;
+}
+
+span{
+    color: #212121;
+}
+
+.detel p{
+    color: #11120b;
+    line-height: 22px;
+    font-size: 120%;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 10%;
+    right: 100px;
+}
+
+.images img{
+
+    height: 55%;
+    width: 45;
+    position:absolute;
+    left:80%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 3s, left 4s;
+    margin-top: 10px;
+}
+
+.images:hover .back{
+    bottom: 40px;
+}
+
+.images:hover .me{
+    left: 105px;
+}
